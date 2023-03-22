@@ -1,0 +1,18 @@
+.new{
+
+    border-bottom: 1px solid #C5C6CE;
+    padding-bottom: 2rem;
+    &__title{
+        color: #FFFDFA;
+        font-weight: 800;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    &__text{
+        color: #C5C6CE;
+        line-height: 26px;
+    }
+}

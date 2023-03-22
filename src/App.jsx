@@ -1,5 +1,11 @@
+import Main from "./components/main/Main";
+import Nav from "./components/nav/Nav";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return <header>
+		<Nav/>
+		<Main/>
+	</header>
 };
 
 export default App;
