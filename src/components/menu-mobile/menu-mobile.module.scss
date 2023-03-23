@@ -1,34 +1,33 @@
 .menu{
-    transform: translateX(100%);
     position: absolute;
     height: 100vh;
     background-color: #FFFDFA;
-    position: absolute;
     width: 70vw;
-    top: 0;
+    top: 70px;
     right: 0;
+    display: none;
 
     @media screen and (min-width: 1024px) {
-        transform: translateX(0);
         position: static;
         height: auto;
         width: auto;
     }
 
     &--show{
-        transform: translateY(0);
+        display: block;
+        @media screen and (min-width: 1024px) {
+            position: static;
+            height: auto;
+            width: auto;
+        }
     }
 
-    &__close{
-        display: flex;
-        justify-content: flex-end;
-        margin-left: auto;
-        padding: 2rem;
-
+    &__icon{
         @media screen and (min-width: 1024px) {
             display: none;
         }
     }
+
 
     &__ul{
         color: #00001A;
@@ -36,8 +35,8 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
-        padding-left: 2rem;
-        padding-top: 8rem;
+        padding-left: 4rem;
+        padding-top: 6rem;
         display: flex;
         flex-direction: column;
         gap: 2rem;
