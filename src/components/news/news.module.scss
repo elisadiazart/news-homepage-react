@@ -3,10 +3,20 @@
     padding: 3rem 2.5rem;
     margin-bottom: 6rem;
 
+    @media screen and (min-width: 1024px) {
+        padding: 2rem;
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+
 
     &__title{
         font-family: 'Inter', sans-serif;
         color: #E9AA52;
         margin-bottom: 2rem;
+
+        @media screen and (min-width: 1024px) {
+            font-size: 40px;
+        }
     }
 }

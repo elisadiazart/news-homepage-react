@@ -1,8 +1,38 @@
 .list-item{
     display: flex;
     align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    @media screen and (min-width: 1024px) {
+        align-items: flex-start;
+    }
 
     &__image{
-        height: 100px;
+        height: 125px;
+        @media screen and (min-width: 1024px) {
+            height: 160px;
+        }
+    }
+
+    &__number{
+        color: #C5C6CE;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: .2rem;
+        
+    }
+
+    &__title{
+        color: #00001A;
+        font-size: 1.125rem;
+        font-weight: 800;
+        margin-bottom: .7rem;
+    }
+
+    &__text{
+        font-size: 15px;
+        font-weight: 400;
+        color: #5E607A;
+        line-height: 26px;
     }
 }

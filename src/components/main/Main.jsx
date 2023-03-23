@@ -5,8 +5,10 @@ import styles from './main.module.scss'
 
 const Main = () => {
     return <main>
+        <div className={styles['main__top-container']}>
         <Section/>
         <News/>
+        </div>
         <List/>
     </main>
 }
